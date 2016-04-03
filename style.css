@@ -1,0 +1,276 @@
+body {
+	margin : 0px;
+	font-family: 'robotolight', sans-serif;
+	color: #474747;
+}
+
+h3 {
+	font-weight: 700;
+	font-size: 2em;
+}
+
+a {
+    color: #555;
+    outline: none;
+    text-decoration: none;
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+.container {
+	width: 680px;
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.header_bg {
+	height: 305px;
+	background-image: url('banner.png');
+}
+
+.topmenu {
+	background: #2A2A2A;
+	box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.nav_container {
+	width: 750px;
+	margin: 0 auto;
+}
+
+.nav_container ul {
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+	margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.nav_container li {
+    float: left;
+}
+
+.nav_container li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	width: 118px;
+}
+
+/* Change the link color to #111 (black) on hover */
+.nav_container li a:hover {
+    background-color: #111;
+}
+
+.nav_container li a.active {
+	background-color: #0099FF;
+}
+
+.wrapper {
+	float: left;
+	margin:0px 0px 0px 0px;	
+	width:100%;
+	height:100%;
+}
+.sidebar{ 
+	float: left;
+    width:  25%;
+    padding: 0px;
+    height: 100%;
+	margin-top: 50px;
+}
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /*background-color: #332;*/
+	background-color: #fff;
+}
+
+.sidebar li {
+	margin: 10px 0px 10px 0px;
+}
+
+.sidebar li a {
+    display: block;
+    color: black;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.sidebar li a:hover {
+    background-color: #111;
+    color: white;
+}
+
+.gradred {
+	background: yellow; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, white , #f44336); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, white, #f44336); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, white, #f44336); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, white , #f44336); /* Standard syntax */
+}
+
+.gradblue {
+	background: yellow; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, white , #2196f3); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, white, #2196f3); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, white, #2196f3); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, white , #2196f3); /* Standard syntax */
+}
+
+.gradgreen {
+	background: yellow; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, white , #8bc34a); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, white, #8bc34a); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, white, #8bc34a); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, white , #8bc34a); /* Standard syntax */
+}
+
+.gradorange {
+	background: yellow; /* For browsers that do not support gradients */
+	background: -webkit-linear-gradient(left, white , #ff9800); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, white, #ff9800); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, white, #ff9800); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, white , #ff9800); /* Standard syntax */
+}
+
+.homecontent{
+	height:auto;
+	width:75%;
+	float: right;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.box {
+	padding: 30px;
+}
+
+.content{
+	float: center-left;
+}
+
+.title {
+	
+}
+
+.title h1 {
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.group {
+	width : 600px;
+	margin : auto;
+}
+
+
+.avatargroup {
+	float : center;
+}
+
+.avatargroup img {
+	height : auto;
+	
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+.avatar {
+	float : left;
+	width: 300px;
+}
+
+.avatar img {
+    max-width: 100%;
+    max-height: 100%;
+	
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.intro {
+	float : left;
+	line-height: 1.8;
+}
+
+.clearfix {
+	clear: left;
+    content:" "
+}
+.footercontent{
+	margin: 15px 0px 15px 15px;
+}
+.footer {
+	background-image: url("footer.png");
+	float:left;
+	display:block;
+	width: 100%;
+	height:300px;
+	background-color: #333;
+	text-align:left;
+	padding:2px;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+.nav_container {
+	width: 100%;
+}
+
+.nav_container li a {
+	width: 100%;
+}
+
+.nav_container li {
+    float: none;
+}
+
+.sidebar{ 
+	float: none;
+	width: 100%;
+}
+
+.homecontent {
+	float: none;
+	width: 100%;
+}
+
+.group {
+	width: 100%;
+}
+
+.nav_container {
+	width: 100%;
+}
+
+.avatar {
+	width: 100%;
+	float : none;
+}
+
+.intro {
+	float : none;
+}
+
+.container {
+	width: 100%;
+	padding: 0;
+}

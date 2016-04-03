@@ -1,0 +1,28 @@
+
+.operation {
+	width: 50px;
+	float: left;
+}
+
+.result {
+	width: 40px;
+	float: left;
+}
+
+.multiplication_col {
+	width: 90px;
+	float: left;
+	padding: 10px;
+	border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 4px;
+}
+
+.multiplication_row {
+	width: 480px;
+}
+
+.multiplication_table {
+	width: 480px;
+	margin: 0px auto 25px auto;
+}

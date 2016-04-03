@@ -1,0 +1,243 @@
+.blog {
+	margin-top: 20px;
+}
+
+.post-outer {
+    margin-bottom: 40px;
+}
+
+.post-body {
+    word-wrap: break-word;
+    width: 100%;
+}
+
+.article_container {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+}
+
+.article_image {
+    position: relative;
+}
+
+.post-body img {
+    height: auto;
+    max-width: 100%;
+}
+
+.article_image img {
+    width: 100%;
+}
+
+.article_inner {
+    width: 85%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: -60px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    padding: 35px 25px;
+    z-index: 1000;
+}
+
+.article_header h2, h1.article_post_title {
+    font-size: 32px;
+    line-height: 1.4;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.article_excerpt p {
+    margin-bottom: 40px;
+}
+
+.article_container:hover .meta-item.rdmre a {
+    background-color: #F0BF3E;
+    border-color: #F0BF3E;
+    color: #fff;
+}
+
+.meta-item.rdmre a {
+    display: inline-block;
+    line-height: 1;
+    color: #444;
+    font-size: 11px;
+    background-color: transparent;
+    border: 1px solid #CCC;
+    padding: 10px 20px;
+    position: relative;
+    text-align: center;
+    border-radius: 4px;
+    font-family: robotolight,sans-serif;
+    text-transform: uppercase;
+}
+
+.meta, .meta a {
+    color: #999;
+}
+
+.meta.meta_tag {
+    font-size: 11px;
+}
+
+.meta {
+    font-family: robotolight,sans-serif;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.margin-30 {
+    margin-bottom: 30px;
+}
+
+.blog-pager {
+    display: inline-block;
+    margin: 20px 0;
+    overflow: visible;
+    padding: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.blog-pager span {
+	padding: 20px 5%;
+	position: relative;
+	text-align: right;
+	width: 40%;
+	float: right;
+}
+
+.blog-pager-older-link::before {
+    content: "\00BB";
+    font-size: 30px;
+    position: absolute;
+    right: 0;
+    top: 13%;
+}
+
+.comments {
+    margin-top: 30px;
+
+    clear: both;
+    margin-bottom: 0;
+}
+
+.comments h4 {
+    font-size: 20px;
+    margin: 0 0 18px;
+    text-transform: capitalize;
+}
+
+.comments .comments-content {
+    margin-bottom: 16px;
+}
+
+.comments .comments-content .comment-thread ol {
+    overflow: hidden;
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+
+.comment-thread ol {
+    counter-reset: countcomments;
+}
+
+.comments .comments-content .comment:first-child {
+    padding-top: 0;
+}
+
+.comments .comments-content .comment {
+    margin-bottom: 20px;
+    padding-bottom: 0;
+}
+
+.comments li {
+    list-style: none;
+}
+
+.comments .avatar-image-container {
+    max-height: 60px;
+    width: 60px;
+}
+.comments .avatar-image-container {
+    float: left;
+    overflow: hidden;
+}
+
+.comments .avatar-image-container img {
+    max-width: 40px;
+    width: 100%;
+}
+
+.comments .comment-block {
+    background: #fff;
+    margin-left: 40px;
+    padding: 1px 0 0 20px;
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    position: relative;
+}
+
+.comments .comments-content .comment-header, .comments .comments-content .comment-content {
+    margin: 0 20px 0 0;
+}
+
+.comments .comments-content .user {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+}
+.comments .comments-content .user {
+    font-style: normal;
+}
+
+.comments .comments-content .datetime {
+    margin-left: 0;
+
+    font-size: 12px;
+    text-transform: uppercase;
+
+    color: #333;
+}
+
+.comments .comments-content .comment-content {
+    text-align: justify;
+}
+
+.comments .comment-block .comment-actions {
+    display: block;
+    text-align: right;
+}
+
+.comments .comment .comment-actions a {
+    border-radius: 2px;
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    background: #F0BF3E;
+    color: #FFFFFF;
+    display: inline-block;
+    font-size: 12px;
+    line-height: normal;
+    margin-left: 1px;
+    padding: 5px 8px;
+}
+
+.comments .comments-content .inline-thread {
+    border-left: 1px solid #F4F4F4;
+    margin: 0 0 20px 35px !important;
+    padding: 0 0 0 20px;
+}
+
+.comments .comment-replybox-single {
+    margin-left: 48px;
+    margin-top: 5px;
+}
